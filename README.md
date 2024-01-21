@@ -1,7 +1,7 @@
 # MySQL_databases
 
 
-
+````
 GRANT SELECT ON airport.* TO 'ich1'@'%';
 GRANT SELECT ON hr.* TO 'ich1'@'%';
 GRANT SELECT ON imdb.* TO 'ich1'@'%';

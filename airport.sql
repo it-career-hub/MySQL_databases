@@ -1,7 +1,15 @@
+DROP DATABASE IF EXISTS airport;
+
+create database airport;
+
+use airport;
+
+DROP TABLE  IF EXISTS `airport`;
+
 CREATE TABLE airliners (
   id VARCHAR(128) PRIMARY KEY,
   model_name VARCHAR(128),
-  range INTEGER,
+  `range` INTEGER,
   production_year INTEGER,
   color VARCHAR(128),
   side_number VARCHAR(128),

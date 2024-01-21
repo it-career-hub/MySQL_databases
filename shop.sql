@@ -1,3 +1,4 @@
+DROP DATABASE IF EXISTS shop;
 CREATE DATABASE shop;
 
 USE shop;

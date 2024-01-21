@@ -1,4 +1,4 @@
-drop database hr;
+DROP DATABASE IF EXISTS hr;
 
 create database hr;
 

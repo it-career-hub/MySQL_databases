@@ -1,3 +1,9 @@
+DROP DATABASE IF EXISTS imdb;
+
+create database imdb;
+
+use imdb;
+
 DROP TABLE  IF EXISTS `movies`;
 
 

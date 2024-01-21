@@ -1,7 +1,8 @@
-DROP DATABASE IF EXISTS uni;
+DROP DATABASE IF EXISTS students;
 
-create database uni;
-use uni;
+create database students;
+
+use students;
 
 create table Students(
 	id integer primary key auto_increment,
